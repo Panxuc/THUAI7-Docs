@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://thuai7.panxuc.com/blog</id>
+    <title>THUAI7 Game Rules Blog</title>
+    <updated>2023-08-25T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://thuai7.panxuc.com/blog"/>
+    <subtitle>THUAI7 Game Rules Blog</subtitle>
+    <icon>https://thuai7.panxuc.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hello World]]></title>
+        <id>https://thuai7.panxuc.com/blog/hello-world</id>
+        <link href="https://thuai7.panxuc.com/blog/hello-world"/>
+        <updated>2023-08-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GameRules beta 0.2 移植完毕。]]></summary>
+        <content type="html"><![CDATA[<p>GameRules beta 0.2 移植完毕。</p>]]></content>
+        <author>
+            <name>Panxuc</name>
+            <uri>https://github.com/Panxuc</uri>
+        </author>
+        <category label="hello" term="hello"/>
+    </entry>
+</feed>
