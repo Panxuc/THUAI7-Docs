@@ -1,1 +1,1 @@
-# THUAI7-GameRules
+# THUAI7 Game Rules
