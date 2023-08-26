@@ -82,7 +82,7 @@ module.exports = {
             },
             items: [
                 {
-                    to: "docs/",
+                    to: "/docs/category/规则",
                     activeBasePath: "docs",
                     label: "规则",
                     position: "left",
@@ -117,10 +117,27 @@ module.exports = {
                         },
                     ],
                 },
+                {
+                    to: "/docs/category/常见问题",
+                    activeBasePath: "docs",
+                    label: "常见问题",
+                    position: "left",
+                    items: [
+                        {
+                            label: "常见问题",
+                            to: "docs/faq",
+                        },
+                    ],
+                },
                 { to: '/blog', label: '公告', position: 'left' },
                 {
                     href: 'https://github.com/Panxuc/THUAI7-GameRules',
                     label: 'GitHub',
+                    position: 'right',
+                },
+                {
+                    href: 'https://eesast.com',
+                    label: 'EESAST',
                     position: 'right',
                 },
             ],

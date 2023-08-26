@@ -1,5 +1,11 @@
 # 接口一览
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="cpp" label="C++" default>
+
 ```cpp
     // 指挥本角色进行移动，`timeInMilliseconds` 为移动时间，单位为毫秒；`angleInRadian` 表示移动的方向，单位是弧度，使用极坐标——竖直向下方向为 x 轴，水平向右方向为 y 轴
     virtual std::future<bool> Move(int64_t timeInMilliseconds, double angleInRadian) = 0;
@@ -65,3 +71,9 @@
     virtual void PrintProp() const = 0;
     virtual void PrintSelfInfo() const = 0;
 ```
+
+</TabItem>
+<TabItem value="python" label="Python">
+
+</TabItem>
+</Tabs>

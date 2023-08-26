@@ -38,25 +38,25 @@ const features = [
                 我们致力于提供全方面的实用 THUAI7 规则说明。
                 <ul>
                     <li>
-                        <Link to="/docs/intro">引入</Link>: 较为主流的编程语言介绍
+                        <Link to="/docs/intro">引入</Link>:
                     </li>
                     <li>
-                        <Link to="/docs/map">地图</Link>: 实用的开发工具介绍
+                        <Link to="/docs/map">地图</Link>:
                     </li>
                     <li>
-                        <Link to="/docs/ship">舰船</Link>: 以 Unity3D 为主的游戏开发介绍
+                        <Link to="/docs/ship">舰船</Link>:
                     </li>
                     <li>
-                        <Link to="/docs/construction">建筑</Link>: 以 JS/TS 为主的 Web 开发介绍
+                        <Link to="/docs/construction">建筑</Link>:
                     </li>
                     <li>
-                        <Link to="/docs/attack">攻击</Link>: 以 C++ 为主的游戏 AI 开发介绍
+                        <Link to="/docs/attack">攻击</Link>:
                     </li>
                     <li>
-                        <Link to="/docs/score">得分</Link>: 以 Python 为主的游戏 AI 开发介绍
+                        <Link to="/docs/score">得分</Link>:
                     </li>
                     <li>
-                        <Link to="/docs/detail">细则</Link>: 以 Python 为主的游戏 AI 开发介绍
+                        <Link to="/docs/detail">细则</Link>:
                     </li>
                 </ul>
             </>
