@@ -9,13 +9,13 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
         <item>
-            <title><![CDATA[Hello World]]></title>
-            <link>https://thuai7.panxuc.com/blog/hello-world</link>
-            <guid>https://thuai7.panxuc.com/blog/hello-world</guid>
+            <title><![CDATA[Beta 0.2]]></title>
+            <link>https://thuai7.panxuc.com/blog/beta-0.2</link>
+            <guid>https://thuai7.panxuc.com/blog/beta-0.2</guid>
             <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[GameRules beta 0.2 移植完毕。]]></description>
             <content:encoded><![CDATA[<p>GameRules beta 0.2 移植完毕。</p>]]></content:encoded>
-            <category>hello</category>
+            <category>version</category>
         </item>
     </channel>
 </rss>
