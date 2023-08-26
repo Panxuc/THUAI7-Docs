@@ -127,6 +127,10 @@ module.exports = {
                             label: "常见问题",
                             to: "docs/faq",
                         },
+                        {
+                            label: "C++ 相关小知识",
+                            to: "docs/cpptips",
+                        },
                     ],
                 },
                 { to: '/blog', label: '公告', position: 'left' },
@@ -137,7 +141,7 @@ module.exports = {
                 },
                 {
                     href: 'https://eesast.com',
-                    label: 'EESAST',
+                    label: 'EESΛST',
                     position: 'right',
                 },
             ],

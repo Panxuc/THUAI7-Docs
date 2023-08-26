@@ -96,7 +96,7 @@ function Home() {
     const { siteConfig = {} } = context;
     return (
         <Layout
-            title={`EESAST | 清华大学电子工程系学生科协`}
+            title={`EESΛST`}
             description="清华大学电子工程系学生科协"
         >
             <header className={clsx("hero hero--primary", styles.heroBanner)}>
