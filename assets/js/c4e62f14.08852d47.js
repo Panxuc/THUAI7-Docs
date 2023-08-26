@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthuai7_gamerules=self.webpackChunkthuai7_gamerules||[]).push([[5159],{5745:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);

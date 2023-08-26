@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthuai7_gamerules=self.webpackChunkthuai7_gamerules||[]).push([[3208],{4730:e=>{e.exports=JSON.parse('{"title":"\u89c4\u5219","slug":"/category/\u89c4\u5219","permalink":"/docs/category/\u89c4\u5219","navigation":{"next":{"title":"\u5f15\u5165","permalink":"/docs/category/\u5f15\u5165"}}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthuai7_gamerules=self.webpackChunkthuai7_gamerules||[]).push([[8477],{5927:e=>{e.exports=JSON.parse('{"title":"\u8230\u8239","slug":"/category/\u8230\u8239","permalink":"/docs/category/\u8230\u8239","navigation":{"previous":{"title":"\u866b\u6d1e","permalink":"/docs/map/wormhole"},"next":{"title":"\u8230\u8239","permalink":"/docs/ship/"}}}')}}]);

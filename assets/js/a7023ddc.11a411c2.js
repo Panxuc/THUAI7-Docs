@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthuai7_gamerules=self.webpackChunkthuai7_gamerules||[]).push([[1713],{3457:e=>{e.exports=JSON.parse('[{"label":"version","permalink":"/blog/tags/version","count":1}]')}}]);
