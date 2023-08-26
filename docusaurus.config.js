@@ -100,20 +100,12 @@ module.exports = {
                             to: "docs/ship",
                         },
                         {
-                            label: "建筑",
-                            to: "docs/construction",
+                            label: "机制",
+                            to: "docs/mechanics",
                         },
                         {
-                            label: "攻击",
-                            to: "docs/attack",
-                        },
-                        {
-                            label: "得分",
-                            to: "docs/score",
-                        },
-                        {
-                            label: "细则",
-                            to: "docs/detail",
+                            label: "接口",
+                            to: "docs/interface",
                         },
                     ],
                 },
@@ -129,7 +121,7 @@ module.exports = {
                         },
                         {
                             label: "C++ 相关小知识",
-                            to: "docs/cpptips",
+                            to: "docs/faq/cpptips",
                         },
                     ],
                 },
@@ -165,20 +157,25 @@ module.exports = {
                             to: "docs/ship",
                         },
                         {
-                            label: "建筑",
-                            to: "docs/construction",
+                            label: "机制",
+                            to: "docs/mechanics",
                         },
                         {
-                            label: "攻击",
-                            to: "docs/attack",
+                            label: "接口",
+                            to: "docs/interface",
+                        },
+                    ],
+                },
+                {
+                    title: '常见问题',
+                    items: [
+                        {
+                            label: "常见问题",
+                            to: "docs/faq",
                         },
                         {
-                            label: "得分",
-                            to: "docs/score",
-                        },
-                        {
-                            label: "细则",
-                            to: "docs/detail",
+                            label: "C++ 相关小知识",
+                            to: "docs/faq/cpptips",
                         },
                     ],
                 },
@@ -188,6 +185,18 @@ module.exports = {
                         {
                             label: "Home",
                             href: "https://eesast.com",
+                        },
+                        {
+                            label: "Docs",
+                            href: "https://docs.eesast.com",
+                        },
+                        {
+                            label: "GitHub",
+                            href: "https://github.com/eesast",
+                        },
+                        {
+                            label: "THUAI7",
+                            href: "https://github.com/eesast/THUAI7",
                         },
                     ],
                 },

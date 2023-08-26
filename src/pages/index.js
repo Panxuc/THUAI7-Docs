@@ -47,16 +47,10 @@ const features = [
                         <Link to="/docs/ship">舰船</Link>:
                     </li>
                     <li>
-                        <Link to="/docs/construction">建筑</Link>:
+                        <Link to="/docs/mechanics">机制</Link>:
                     </li>
                     <li>
-                        <Link to="/docs/attack">攻击</Link>:
-                    </li>
-                    <li>
-                        <Link to="/docs/score">得分</Link>:
-                    </li>
-                    <li>
-                        <Link to="/docs/detail">细则</Link>:
+                        <Link to="/docs/interface">接口</Link>:
                     </li>
                 </ul>
             </>

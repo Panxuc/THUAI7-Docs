@@ -6,22 +6,29 @@ const sidebars = {
             link: {
                 type: "generated-index",
             },
-            collapsed: true,
+            collapsed: false,
             items: [
                 {
                     type: "category",
                     label: "引入",
-                    collapsed: true,
+                    collapsed: false,
+                    link: {
+                        type: "generated-index",
+                    },
                     items: [
                         "intro/README",
                         "intro/rule",
+                        "intro/guide",
                         "intro/programming",
                     ],
                 },
                 {
                     type: "category",
                     label: "地图",
-                    collapsed: true,
+                    collapsed: false,
+                    link: {
+                        type: "generated-index",
+                    },
                     items: [
                         "map/map",
                         "map/placetype",
@@ -32,7 +39,10 @@ const sidebars = {
                 {
                     type: "category",
                     label: "舰船",
-                    collapsed: true,
+                    collapsed: false,
+                    link: {
+                        type: "generated-index",
+                    },
                     items: [
                         "ship/ship",
                         "ship/civilship",
@@ -42,34 +52,30 @@ const sidebars = {
                 },
                 {
                     type: "category",
-                    label: "建筑",
-                    collapsed: true,
+                    label: "机制",
+                    collapsed: false,
+                    link: {
+                        type: "generated-index",
+                    },
                     items: [
-                        "construction/construction",
+                        "mechanics/mechanics",
+                        "mechanics/construction",
+                        "mechanics/view",
+                        "mechanics/attack",
+                        "mechanics/score",
                     ],
                 },
                 {
                     type: "category",
-                    label: "攻击",
-                    collapsed: true,
+                    label: "接口",
+                    collapsed: false,
+                    link: {
+                        type: "generated-index",
+                    },
                     items: [
-                        "attack/attack",
-                    ],
-                },
-                {
-                    type: "category",
-                    label: "得分",
-                    collapsed: true,
-                    items: [
-                        "score/score",
-                    ],
-                },
-                {
-                    type: "category",
-                    label: "细则",
-                    collapsed: true,
-                    items: [
-                        "detail/detail",
+                        "interface/interface",
+                        "interface/cpp",
+                        "interface/python",
                     ],
                 },
             ],
@@ -80,7 +86,7 @@ const sidebars = {
             link: {
                 type: "generated-index",
             },
-            collapsed: true,
+            collapsed: false,
             items: [
                 "faq/README",
                 "faq/cpptips",
