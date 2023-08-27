@@ -61,17 +61,17 @@ int main(void)
 
 lambda 表达式是不能够直接使用函数内的局部变量的（之后你将会看到这是为什么）。如果需要使用函数内的局部变量，需要手动进行捕获。捕获的方式有两种：按值捕获与按引用捕获。按值捕获，只会获得该值，而按引用捕获，则会获得函数内局部变量的引用。声明要捕获的变量就在 lambda 表达式的 `[]` 内：
 
-+ `[]`：不捕获任何局部变量
-+ `[x]`：按值捕获变量 `x`
-+ `[&y]`：按引用捕获变量 `y`
-+ `[=]`：按值捕获全部局部变量
-+ `[&]`：按引用捕获全部局部变量
-+ `[&, x]`：除了 `x` 按值捕获之外，其他变量均按引用捕获
-+ `[=, &y]`：什么意思不用我都说了吧
-+ `[r = x]`：声明一个变量 `r` ，捕获 `x` 的值
-+ `[&r = y]`：声明一个引用 `r`，捕获 `y` 的引用
-+ `[x, y, &z, w = p, &r = q]`：作为练习
-+ `[&, x, y, p = z]`：这个也作为练习
+- `[]`：不捕获任何局部变量
+- `[x]`：按值捕获变量 `x`
+- `[&y]`：按引用捕获变量 `y`
+- `[=]`：按值捕获全部局部变量
+- `[&]`：按引用捕获全部局部变量
+- `[&, x]`：除了 `x` 按值捕获之外，其他变量均按引用捕获
+- `[=, &y]`：什么意思不用我都说了吧
+- `[r = x]`：声明一个变量 `r` ，捕获 `x` 的值
+- `[&r = y]`：声明一个引用 `r`，捕获 `y` 的引用
+- `[x, y, &z, w = p, &r = q]`：作为练习
+- `[&, x, y, p = z]`：这个也作为练习
 
 这样我们就可以写出下面的代码了：
 
@@ -451,8 +451,8 @@ sq.reset(q);            // 让 sq 托管 q
 
 之前说过 ，默认情况下是释放内存的函数是 `delete` 运算符，但有时我们并不希望这样。比如下面的几个情况：
 
-+ 使用 `std::shared_ptr` 托管动态数组
-  + C++11 起
+- 使用 `std::shared_ptr` 托管动态数组
+  - C++11 起
 
     ```cpp
     #include <memory>
@@ -470,21 +470,21 @@ sq.reset(q);            // 让 sq 托管 q
     // 或者利用 lambda 表达式：std::shared_ptr<int> sp(new int[10], [](int* p) { delete[] p; });
     ```
 
-  + C++17 起
+  - C++17 起
 
     ```cpp
     std::shared_ptr<int[]> sp(new int[10]);
     sp[0] = 0; // 访问第 0 个元素
     ```
 
-  + C++20 起
+  - C++20 起
 
     ```cpp
     auto sp = std::make_shared<int[]>(10);
     sp[0] = 0; // 访问第 0 个元素
     ```
 
-+ 释放系统资源
+- 释放系统资源
 
   在编程过程中，难免与操作系统打交道，这时我们可能需要获取一系列的系统资源，并还给操作系统（实际上 `new` 和 `delete` 也就是一个例子）。一个比较有特色的例子就是 Windows API。在传统的 Win32 程序中，如果我们要在屏幕上进行绘制图形，我们首先需要获取设备的上下文信息，才能在设备上进行绘图。设想这样一个情景：我们有一个窗口，已经获得了指向这个窗口的句柄（即指针）`hWnd`，我们要在窗口上绘图，就要通过这个窗口句柄获取设备上下文信息。代码如下：
 
@@ -589,7 +589,7 @@ void Func()
 /*...*/
 ```
 
-太糟糕了！上面的 `pA` 指向的的对象和 `pB` 指向的对象一直到程序结束之前永远不会被释放！如果不相信，可以在它们的析构函数里输出些什么试一试。相信学习了引用计数的你，一定能想出来原因。我们就把它当作一道思考题作为练习：为什么这两个对象不会被释放呢？（提示：注意只有引用计数降为0的时候才会释放）
+太糟糕了！上面的 `pA` 指向的的对象和 `pB` 指向的对象一直到程序结束之前永远不会被释放！如果不相信，可以在它们的析构函数里输出些什么试一试。相信学习了引用计数的你，一定能想出来原因。我们就把它当作一道思考题作为练习：为什么这两个对象不会被释放呢？（提示：注意只有引用计数降为 0 的时候才会释放）
 
 实际上，`std::shared_ptr` 并不是乱用的。它除了作为一个指针之外，还表明了一种逻辑上的归属关系。从逻辑上看，类的成员代表一种归属权的关系，类的成员属于这个类。拥有 `shared_ptr` 作为**成员**的对象，是对 `shared_ptr` 所指向的对象具有所有权的，`shared_ptr` 也是基于这个理念设计的。但是，有时候我们并不希望这是个所有权的关系，例如我们有双亲和孩子的指针作为“人”的成员，但是人与人之间是平等相待和谐共处的，我们不能说一个人是另一个人的附属品。这时候，`std::weak_ptr` 便应运而生了！
 
@@ -630,7 +630,7 @@ else
 }
 ```
 
-需要注意的是，由于[标准委员会的疏忽~忘了~（partly an oversight）](https://herbsutter.com/gotw/_102/)，C++14 中才引进`std::make_unique`，C++11 中无法使用。因此 C++11 若想使用则需自定义 `make_unique`：
+需要注意的是，由于[标准委员会的疏忽~~忘了~~（partly an oversight）](https://herbsutter.com/gotw/_102/)，C++14 中才引进`std::make_unique`，C++11 中无法使用。因此 C++11 若想使用则需自定义 `make_unique`：
 
 ```cpp
 namespace
@@ -645,6 +645,6 @@ namespace
 
 更多关于智能指针的知识，可以参考（点击进入）：
 
-+ [cppreference_shared_ptr](https://zh.cppreference.com/w/cpp/memory/shared_ptr)
-+ [cppreference_weak_ptr](https://zh.cppreference.com/w/cpp/memory/weak_ptr)
-+ [cppreference_unique_ptr](https://zh.cppreference.com/w/cpp/memory/unique_ptr)
+- [cppreference_shared_ptr](https://zh.cppreference.com/w/cpp/memory/shared_ptr)
+- [cppreference_weak_ptr](https://zh.cppreference.com/w/cpp/memory/weak_ptr)
+- [cppreference_unique_ptr](https://zh.cppreference.com/w/cpp/memory/unique_ptr)

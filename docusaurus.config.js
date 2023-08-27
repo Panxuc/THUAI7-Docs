@@ -8,7 +8,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 module.exports = {
-    title: 'THUAI7 Game Rules',
+    title: 'THUAI7 Docs',
     tagline: 'EESΛST 软件部 倾情奉献',
     favicon: 'img/favicon.ico',
 
@@ -21,7 +21,7 @@ module.exports = {
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'Panxuc', // Usually your GitHub org/user name.
-    projectName: 'THUAI7-GameRules', // Usually your repo name.
+    projectName: 'THUAI7-Docs', // Usually your repo name.
 
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
@@ -42,7 +42,7 @@ module.exports = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl:
-                        'https://github.com/Panxuc/THUAI7-GameRules/edit/main',
+                        'https://github.com/Panxuc/THUAI7-Docs/edit/main',
                     showLastUpdateAuthor: true,
                     showLastUpdateTime: true,
                     remarkPlugins: [math],
@@ -75,7 +75,7 @@ module.exports = {
             },
         },
         navbar: {
-            title: 'THUAI7 Game Rules',
+            title: 'THUAI7 Docs',
             logo: {
                 alt: 'EESΛST Logo',
                 src: 'img/favicon.ico',
@@ -127,7 +127,7 @@ module.exports = {
                 },
                 { to: '/blog', label: '公告', position: 'left' },
                 {
-                    href: 'https://github.com/Panxuc/THUAI7-GameRules',
+                    href: 'https://github.com/Panxuc/THUAI7-Docs',
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -209,12 +209,17 @@ module.exports = {
                         },
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/Panxuc/THUAI7-GameRules',
+                            href: 'https://github.com/Panxuc/THUAI7-Docs',
                         },
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} THUAI7 Game Rules, EESΛST. Built with Docusaurus.`,
+            logo: {
+                alt: "EESΛST Logo",
+                src: "img/favicon.ico",
+                href: "https://eesast.com",
+            },
+            copyright: `Copyright © ${new Date().getFullYear()} THUAI7 Docs, EESΛST. Built with Docusaurus.`,
         },
         prism: {
             theme: lightCodeTheme,
