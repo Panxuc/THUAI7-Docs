@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthuai7_docs=self.webpackChunkthuai7_docs||[]).push([[1713],{3457:s=>{s.exports=JSON.parse('[{"label":"version","permalink":"/blog/tags/version","count":1}]')}}]);

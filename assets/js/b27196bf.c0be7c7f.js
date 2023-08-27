@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthuai7_docs=self.webpackChunkthuai7_docs||[]).push([[1864],{7650:e=>{e.exports=JSON.parse('{"title":"\u673a\u5236","slug":"/category/\u673a\u5236","permalink":"/docs/category/\u673a\u5236","navigation":{"previous":{"title":"\u65d7\u8230","permalink":"/docs/ship/flagship"},"next":{"title":"\u673a\u5236","permalink":"/docs/mechanics/"}}}')}}]);

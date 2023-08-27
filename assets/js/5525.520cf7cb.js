@@ -1,1 +1,0 @@
-(self.webpackChunkthuai7_gamerules=self.webpackChunkthuai7_gamerules||[]).push([[5525],{5525:()=>{}}]);
