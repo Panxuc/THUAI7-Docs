@@ -60,6 +60,7 @@ const sidebars = {
                     items: [
                         "mechanics/mechanics",
                         "mechanics/construction",
+                        "mechanics/module",
                         "mechanics/view",
                         "mechanics/attack",
                         "mechanics/score",
