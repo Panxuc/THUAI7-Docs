@@ -4,10 +4,19 @@
         <title>THUAI7 Docs Blog</title>
         <link>https://thuai7.panxuc.com/blog</link>
         <description>THUAI7 Docs Blog</description>
-        <lastBuildDate>Fri, 25 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
+        <item>
+            <title><![CDATA[Beta 0.3]]></title>
+            <link>https://thuai7.panxuc.com/blog/beta-0.3</link>
+            <guid>https://thuai7.panxuc.com/blog/beta-0.3</guid>
+            <pubDate>Thu, 21 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[更新至 GameRules beta 0.3。]]></description>
+            <content:encoded><![CDATA[<p>更新至 GameRules beta 0.3。</p>]]></content:encoded>
+            <category>version</category>
+        </item>
         <item>
             <title><![CDATA[Beta 0.2]]></title>
             <link>https://thuai7.panxuc.com/blog/beta-0.2</link>

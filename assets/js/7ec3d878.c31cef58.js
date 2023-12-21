@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkthuai7_docs=self.webpackChunkthuai7_docs||[]).push([[2178],{5655:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/version","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
