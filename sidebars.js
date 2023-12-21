@@ -48,6 +48,7 @@ const sidebars = {
                         "ship/civilship",
                         "ship/warship",
                         "ship/flagship",
+                        "ship/team",
                     ],
                 },
                 {
